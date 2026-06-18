@@ -15,7 +15,7 @@ Without structured analysis, the organization is unable to answer critical busin
 
 
 
-**📄 An official report for stakeholders and business leaders can be found here**
+**📄 An official online detailed report for stakeholders and business leaders can be found [here](https://github.com/a-paija/Alaska-Air-Group-Financial-Diagnostic/blob/main/Alaska%20Air%20Group%2C%20Inc..pdf)**
 
 
 
