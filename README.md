@@ -15,7 +15,7 @@ Without structured analysis, the organization is unable to answer critical busin
 
 
 
-**📄 An official report for stakeholders and business leaders can be found [here](link-to-pdf)**
+**📄 An official report for stakeholders and business leaders can be found here**
 
 
 
