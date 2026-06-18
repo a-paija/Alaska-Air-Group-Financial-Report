@@ -82,7 +82,7 @@ The company is scaling revenue but not scaling profit. The disconnect is driven 
 Addressing these gaps represents a significant opportunity to unlock near-term margin recovery while improving long-term financial sustainability.
 
 
-## Cost Volatility & Control
+## 1. Cost Volatility & Control
 
 <img src="images/Cost Structure.png" alt="ED1" width="600" height="400"/>
 
@@ -90,7 +90,7 @@ OpEx held at roughly **10% of revenue** since 2015. Cost of Revenue expanded fro
 
 **Insight:** The company has controlled SG&A (Selling, General, and Administrative) costs but lost control of core delivery costs. The primary profit killer is Cost of Revenue, not operating expenses. At 96% expense-to-revenue ratio, the company has no margin for error.
 
-## Cost Efficiency Decline
+## 2. Cost Efficiency Decline
 
 <img src="images/Cost Per Revenue.png" alt="ED1" width="600" height="400"/>
 
@@ -98,7 +98,7 @@ Cost per revenue reached its best level in **2009 at $0.70**. Efficiency has sin
 
 **Insight:** Early improvements reflected successful cost controls. That progress has since reversed. The company is experiencing diseconomies of scale, growth brings higher unit costs rather than lower costs per unit.
 
-## No Operating Leverage
+## 3. No Operating Leverage
 
 <img src="images/EXPvsREV.png" alt="ED1" width="600" height="450"/>
 
@@ -114,7 +114,7 @@ Operating margin: **3.9%** (2025). Net margin: **0.7%** (2025). Gap of **3.2 per
 
 **Insight:** Non-operating costs—interest, taxes, and one-time charges—consistently erode profitability beyond core operations. Even when operating performance improves, profit leaks through non-operating channels. The company cannot retain the value it creates.
 
-## Margin Compression
+## 4. Margin Compression
 
 <img src="images/Net Margins.png" alt="ED1" width="600" height="450"/>
 
@@ -122,7 +122,7 @@ Net margin peaked at **15.15% (2015)** . Collapsed to **-37.13% (2020)** . Curre
 
 **Insight:** Margin compression is structural, not cyclical. The 2020 shock exposed fragility, and the company has not recovered sufficient margin cushion since. At 0.7%, the company is operating with no buffer.
 
-## Escalating Debt Burden
+## 5. Escalating Debt Burden
 
 <img src="images/Total Debt.png" alt="ED1" width="600" height="450"/>
 
