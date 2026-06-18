@@ -88,7 +88,7 @@ Addressing these gaps represents a significant opportunity to unlock near-term m
 
 OpEx held at roughly **10% of revenue** since 2015. Cost of Revenue expanded from **56% to 86% of revenue** (1989–2025). Total expenses now consume **96% of revenue**, leaving a **4% operating margin**.
 
-**Insight:** The company has controlled SG&A costs but lost control of core delivery costs. The primary profit killer is Cost of Revenue, not operating expenses. At 96% expense-to-revenue ratio, the company has no margin for error.
+**Insight:** The company has controlled SG&A (Selling, General, and Administrative) costs but lost control of core delivery costs. The primary profit killer is Cost of Revenue, not operating expenses. At 96% expense-to-revenue ratio, the company has no margin for error.
 
 ## Cost Efficiency Decline
 
@@ -96,13 +96,15 @@ OpEx held at roughly **10% of revenue** since 2015. Cost of Revenue expanded fro
 
 Cost per revenue reached its best level in **2009 at $0.70**. Efficiency has since deteriorated **26% to $0.96 in 2025**.
 
-**Insight:** Early improvements reflected successful cost controls. That progress has since reversed. The company is experiencing diseconomies of scale—growth brings higher unit costs rather than lower costs per unit.
+**Insight:** Early improvements reflected successful cost controls. That progress has since reversed. The company is experiencing diseconomies of scale, growth brings higher unit costs rather than lower costs per unit.
 
 ## No Operating Leverage
 
 <img src="images/EXPvsREV.png" alt="ED1" width="600" height="450"/>
 
-Expense growth outpaced revenue growth in **6 of 7 periods analyzed**. YoY expense swings: **+99% (2004)** , **-43% (2005)** , **+46% (2017)** , **-42% (2020)** .
+Expense growth outpaced revenue growth in **6 of 7 periods analyzed**. 
+
+YoY expense swings: **+99% (2004)** , **-43% (2005)** , **+46% (2017)** , **-42% (2020)** .
 
 **Insight:** Cost volatility is structural, not random. External shocks (2008, 2017, 2020) repeatedly disrupt the cost base. Financial planning lacks a reliable foundation because management cannot forecast total costs with confidence.
 
@@ -127,4 +129,88 @@ Net margin peaked at **15.15% (2015)** . Collapsed to **-37.13% (2020)** . Curre
 Debt more than doubled since 2019: **$3.2B → $6.9B** (+115%). Interest expense nearly quadrupled: **$63M → $235M** (+273%). Interest consumes **42% of operating income**. Interest coverage: **1.6x** (2019: 17.1x). Free cash flow negative in **4 of the last 6 years**, including **-$339M (2025)** .
 
 **Insight:** Debt is a compounding factor, not a separate problem. Each shock forces borrowing, and borrowing increases fixed obligations, making the company more vulnerable to the next shock. Negative free cash flow forces further borrowing—a self-reinforcing cycle. At 1.6x interest coverage, a modest earnings decline would push coverage below 1.0x.
+
+## Root Cause Analysis
+
+The five drivers are not isolated problems. They form a chain of causation where each driver compounds the next.
+
+| Order | Driver | Root Cause |
+|-------|--------|------------|
+| **1** | Cost Volatility & Control | External shocks (2008, 2017, 2020) + structural sensitivity to fuel prices, integration costs, and demand disruptions |
+| **2** | Cost Efficiency Decline | Shocks disrupt operational discipline; costs rise with scale rather than fall (diseconomies of scale) |
+| **3** | No Operating Leverage | Revenue growth absorbed by rising costs; expense growth outpaces revenue growth in nearly every period |
+| **4** | Margin Compression | Cumulative outcome of inefficiency and lack of leverage; net margin 15.2% → 0.7% |
+| **5** | Escalating Debt Burden | Shocks force borrowing; debt amplifies fragility; interest consumes 42% of operating income |
+
+
+## Recommendations
+
+The following recommendations are prioritized based on potential financial impact and operational importance.
+
+### Action 1: Stabilize Cost Structure
+
+**Impact:** High | **Addresses:** Cost volatility and control gaps
+
+- Identify the most volatile cost categories (fuel, maintenance, labor)
+- Implement an enhanced fuel hedging program
+- Diversify the supplier base to reduce concentration risk
+- Build contingency buffers into operating budgets
+
+### Action 2: Restore Cost Efficiency
+
+**Impact:** High | **Addresses:** 26% efficiency decline since 2015
+
+- Conduct cost-to-serve analysis
+- Benchmark unit costs against industry peers
+- Review procurement and vendor contracts
+- Evaluate automation and process redesign opportunities
+
+### Action 3: Generate Operating Leverage
+
+**Impact:** High | **Addresses:** Revenue +130%, margins −7pp
+
+- Ensure revenue growth outpaces cost growth
+- Price selectively to improve unit economics
+- Align capacity additions with cost efficiency targets
+
+### Action 4: Reduce Debt Burden
+
+**Impact:** High | **Addresses:** Debt +115%, interest consumes 42% of operating income
+
+- Refinance high-cost debt
+- Use excess cash/asset sales for paydown
+- Restrict new borrowing
+- Improve free cash flow through CapEx discipline
+
+### Action 5: Build Margin Buffer
+
+**Impact:** Medium | **Addresses:** 0.7% net margin with no buffer
+
+- Target net margin above 5%
+- Stress-test against historical shock scenarios
+- Maintain liquidity reserves
+
+## The Bottom Line
+
+Fixing the cost structure is the prerequisite for all other improvements. Without it, revenue growth will continue to be absorbed by rising costs, and debt will continue to compound the problem.
+
+Without decisive action, margin compression, negative cash flow, and rising debt will lead to a liquidity crisis within 3–5 years.
+
+
+## Skills Demonstrated
+
+- Financial Statement Analysis
+- ETL / Data Cleaning (Power Query)
+- Financial Modeling
+- Data Visualization
+- Business Storytelling
+- Executive Reporting
+  
+## Tools Used
+
+| Tool | Purpose |
+|------|---------|
+| **Excel** | Data consolidation, cleaning, metric calculation |
+| **Power Query** | ETL: combining income statements, cash flow, and balance sheets |
+| **Data Visualization** | Trend analysis, dual-axis charts, margin visualization |
 
