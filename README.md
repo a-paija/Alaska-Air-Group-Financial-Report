@@ -11,9 +11,9 @@ Without structured analysis, the organization is unable to answer critical busin
 
 #### **Overall Goal: Diagnose the root causes of profitability decline and provide actionable recommendations to stabilize cost structure, restore efficiency, and generate sustainable margin expansion.**
 
-** A FULL official online detailed report for stakeholders and business leaders can be found [here](https://github.com/a-paija/Alaska-Air-Group-Financial-Report/blob/main/ALK_Financial_Diagnostic_Report.pdf)**
-
 > **Note:** Detailed recommendations and implementation actions are consolidated in the final section of this report.
+
+**A FULL official online detailed report for stakeholders and business leaders can be found [here](https://github.com/a-paija/Alaska-Air-Group-Financial-Report/blob/main/ALK_Financial_Diagnostic_Report.pdf)**
 
 ## Data Structure & Initial Checks
 
@@ -193,7 +193,7 @@ Fixing the cost structure is the prerequisite for all other improvements. Withou
 Without decisive action, margin compression, negative cash flow, and rising debt will lead to a liquidity crisis within 3–5 years.
 
 
-** A FULL official online detailed report for stakeholders and business leaders can be found [here](https://github.com/a-paija/Alaska-Air-Group-Financial-Report/blob/main/ALK_Financial_Diagnostic_Report.pdf)**
+**A FULL official online detailed report for stakeholders and business leaders can be found [here](https://github.com/a-paija/Alaska-Air-Group-Financial-Report/blob/main/ALK_Financial_Diagnostic_Report.pdf)**
 
 
 ## Skills Demonstrated
