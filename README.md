@@ -15,44 +15,6 @@ Without structured analysis, the organization is unable to answer critical busin
 
 **A FULL official online detailed report for stakeholders and business leaders can be found [here](https://github.com/a-paija/Alaska-Air-Group-Financial-Report/blob/main/ALK_Financial_Diagnostic_Report.pdf)**
 
-## Data Structure & Initial Checks
-
-### Data Sources
-
-Financial data was sourced from **public financial records** available on Alaska Air Group's Investor & Shareholder Relations website, including:
-
-- **Income Statements** – Revenue, Cost of Revenue, Operating Expenses, Net Income
-- **Cash Flow Statements** – Operating Cash Flow, Free Cash Flow, Capital Expenditures
-- **Balance Sheets** – Total Debt, Interest Expense, Total Liabilities, Equity
-
-### Data Processing & Cleaning (Power Query)
-
-Raw financial statements were extracted and consolidated using **Excel and Power Query**. The following steps were performed to ensure data accuracy and consistency:
-
-1. **Data Extraction:** Downloaded annual financial statements from Alaska Air Group's investor relations portal (10-K filings, annual reports) covering 1989–2025.
-
-2. **ETL Process (Power Query):**
-   - Imported raw data from multiple Excel files and PDF extracts
-   - Combined income statements, cash flow statements, and balance sheets into a single master dataset
-   - Standardized fiscal year-end dates to ensure alignment across statements
-   - Removed duplicate records and merged fragmented datasets
-   - Aggregated data at the annual level for consistent period-over-period comparison
-
-3. **Data Cleaning:**
-   - Handled missing values by cross-referencing with supplementary filings (10-Q, 8-K)
-   - Standardized currency formatting to consistent units (USD)
-   - Ensured consistent naming conventions and field definitions
-   - Flagged outliers and anomalies for review (e.g., 2001 restructuring charges, 2020 pandemic-driven write-offs)
-
-4. **Metric Calculation:** Derived key performance indicators including:
-   - Net Margin = Net Income / Revenue
-   - Operating Margin = Operating Income / Revenue
-   - Gross Margin = (Revenue – Cost of Revenue) / Revenue
-   - Cost per Revenue = Total Expenses / Revenue
-   - Interest Coverage = EBIT / Interest Expense
-   - Free Cash Flow = Operating Cash Flow – Capital Expenditures
-   - YoY Revenue Growth and YoY Expense Growth
-
 
 ## Executive Summary
 
@@ -200,7 +162,45 @@ Without decisive action, margin compression, negative cash flow, and rising debt
 - Data Visualization
 - Business Storytelling
 - Executive Reporting
-  
+
+## Data Structure & Initial Checks
+
+### Data Sources
+
+Financial data was sourced from **public financial records** available on Alaska Air Group's Investor & Shareholder Relations website, including:
+
+- **Income Statements** – Revenue, Cost of Revenue, Operating Expenses, Net Income
+- **Cash Flow Statements** – Operating Cash Flow, Free Cash Flow, Capital Expenditures
+- **Balance Sheets** – Total Debt, Interest Expense, Total Liabilities, Equity
+
+### Data Processing & Cleaning (Power Query)
+
+Raw financial statements were extracted and consolidated using **Excel and Power Query**. The following steps were performed to ensure data accuracy and consistency:
+
+1. **Data Extraction:** Downloaded annual financial statements from Alaska Air Group's investor relations portal (10-K filings, annual reports) covering 1989–2025.
+
+2. **ETL Process (Power Query):**
+   - Imported raw data from multiple Excel files and PDF extracts
+   - Combined income statements, cash flow statements, and balance sheets into a single master dataset
+   - Standardized fiscal year-end dates to ensure alignment across statements
+   - Removed duplicate records and merged fragmented datasets
+   - Aggregated data at the annual level for consistent period-over-period comparison
+
+3. **Data Cleaning:**
+   - Handled missing values by cross-referencing with supplementary filings (10-Q, 8-K)
+   - Standardized currency formatting to consistent units (USD)
+   - Ensured consistent naming conventions and field definitions
+   - Flagged outliers and anomalies for review (e.g., 2001 restructuring charges, 2020 pandemic-driven write-offs)
+
+4. **Metric Calculation:** Derived key performance indicators including:
+   - Net Margin = Net Income / Revenue
+   - Operating Margin = Operating Income / Revenue
+   - Gross Margin = (Revenue – Cost of Revenue) / Revenue
+   - Cost per Revenue = Total Expenses / Revenue
+   - Interest Coverage = EBIT / Interest Expense
+   - Free Cash Flow = Operating Cash Flow – Capital Expenditures
+   - YoY Revenue Growth and YoY Expense Growth
+
 ## Tools Used
 
 | Tool | Purpose |
