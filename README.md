@@ -192,10 +192,6 @@ Fixing the cost structure is the prerequisite for all other improvements. Withou
 
 Without decisive action, margin compression, negative cash flow, and rising debt will lead to a liquidity crisis within 3–5 years.
 
-
-**A FULL official online detailed report for stakeholders and business leaders can be found [here](https://github.com/a-paija/Alaska-Air-Group-Financial-Report/blob/main/ALK_Financial_Diagnostic_Report.pdf)**
-
-
 ## Skills Demonstrated
 
 - Financial Statement Analysis
@@ -212,4 +208,6 @@ Without decisive action, margin compression, negative cash flow, and rising debt
 | **Excel** | Data consolidation, cleaning, metric calculation |
 | **Power Query** | ETL: combining income statements, cash flow, and balance sheets |
 | **Data Visualization** | Trend analysis, dual-axis charts, margin visualization |
+
+**A FULL official online detailed report for stakeholders and business leaders can be found [here](https://github.com/a-paija/Alaska-Air-Group-Financial-Report/blob/main/ALK_Financial_Diagnostic_Report.pdf)**
 
