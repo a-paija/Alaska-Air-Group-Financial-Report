@@ -1,7 +1,5 @@
 ## Project Background
 
-Alaska Air Group is the fourth-largest U.S. carrier, operating from hubs in Seattle, Honolulu, Portland, Anchorage, Los Angeles, San Francisco, San Diego, and Hawaii. The company serves over 140 destinations across North America, Latin America, Asia, and the Pacific through its Alaska Airlines, Hawaiian Airlines, and regional partners.
-
 Despite consistent revenue growth, the company faces a **structural profitability crisis**. Revenue grew **15.5x** since 1989, yet net income grew only **2.3x**. Management lacks visibility into the underlying drivers of margin erosion, making it difficult to identify where costs are spiraling, why operating leverage has failed, and how to restore sustainable profitability.
 
 Without structured analysis, the organization is unable to answer critical business questions such as:
