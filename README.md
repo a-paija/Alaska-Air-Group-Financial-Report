@@ -57,134 +57,74 @@ Raw financial statements were extracted and consolidated using **Excel and Power
    - Free Cash Flow = Operating Cash Flow – Capital Expenditures
    - YoY Revenue Growth and YoY Expense Growth
 
-### Final Dataset Structure
-
-| Column | Description |
-|--|-|
-| Year | Fiscal year (1989–2025) |
-| Revenue | Total revenue in USD |
-| Net Income | Net income in USD |
-| Net Margin | Net income / Revenue (%) |
-| Operating Cash Flow | Cash from operations in USD |
-| Free Cash Flow | Operating Cash Flow – CapEx in USD |
-| Total Debt | Total debt obligations in USD |
-| Cost of Revenue | Cost of goods/services sold in USD |
-| Operating Expense | SG&A and other operating expenses in USD |
-| Total Expenses | Cost of Revenue + Operating Expense in USD |
-| Operating Income | Revenue – Total Expenses in USD |
-| Interest Expense | Interest paid on debt in USD |
-| EBITDA | Earnings before interest, taxes, depreciation, amortization |
-| Operating Margin | Operating Income / Revenue (%) |
-| Cost per Revenue | Total Expenses / Revenue ($) |
-
-
 
 ## Executive Summary
+
+<img src="images/Profit Disconnect.png" alt="ED1" width="800" height="600"/>
 
 Alaska Air Group has grown revenue **15.5x** since 1989, from $917 million to $14.2 billion, and **130%** since 2021. Yet net income has multiplied only **2.3x** over 36 years, rising from $43 million to just $100 million, and has fallen **79%** in the last five. Net margin now sits at **0.7%**, down from 7.7%.
 
 The company is scaling revenue but not scaling profit. The disconnect is driven by **five structural failures**:
 
-| Driver | Core Problem | Root Cause |
-|--|--||
-| **1. Cost Volatility & Control** | Total costs remain highly unpredictable | External shocks + structural sensitivity |
-| **2. Cost Efficiency Decline** | Cost per revenue worsened 26% since 2015 | Shocks disrupt operational discipline; costs rise with scale |
-| **3. No Operating Leverage** | Revenue +130%, operating margin -7pp | Revenue growth absorbed by rising costs |
-| **4. Margin Compression** | Net margin 15.2% → 0.7% | Cumulative outcome of inefficiency and lack of leverage |
-| **5. Escalating Debt Burden** | Debt +115%, FCF negative | Shocks force borrowing; debt amplifies fragility |
+1. **Cost Volatility & Control:**  Total costs remain highly unpredictable due to swings in Cost of Revenue and one-time items. Financial planning lacks a reliable foundation.
+
+2. **Cost Efficiency Decline:** Cost per dollar of revenue has worsened 26% since 2015, from $0.76 to $0.96; the company is scaling inefficiency.
+
+3. **No Operating Leverage:** Revenue has more than doubled since 2021, yet operating margin has fallen from 10.9% to 3.9%. Growth is delivering no efficiency benefit
+
+4. **Margin Compression:** Net margin has collapsed from 15.2% to 0.7%, leaving the company with no margin for error; a 5% revenue decline would wipe out all profit.
+
+5. **Escalating Debt Burden:** Debt has more than doubled to $6.9B, interest expense consumes 42% of operating income, and negative free cash flow forces the company to borrow further, creating a vicious cycle.
+
 
 > **The company's primary constraint is not revenue generation, but the ability to convert revenue into sustainable profit due to structural cost inefficiencies, a lack of operating leverage, and a compounding debt burden.**
 
 Addressing these gaps represents a significant opportunity to unlock near-term margin recovery while improving long-term financial sustainability.
 
 
+## Cost Volatility & Control
 
-## Key Problem Drivers & Analysis
+<img src="images/Cost Structure.png" alt="ED1" width="600" height="400"/>
 
-### 1. Cost Volatility & Control
+OpEx held at roughly **10% of revenue** since 2015. Cost of Revenue expanded from **56% to 86% of revenue** (1989–2025). Total expenses now consume **96% of revenue**, leaving a **4% operating margin**.
 
-While the company has improved operating efficiency over time, its cost structure has shifted toward high cost-of-revenue dependence, limiting operating leverage and preventing strong margin expansion despite revenue growth.
+**Insight:** The company has controlled SG&A costs but lost control of core delivery costs. The primary profit killer is Cost of Revenue, not operating expenses. At 96% expense-to-revenue ratio, the company has no margin for error.
 
-**What the Data Shows:**
-- OpEx held at roughly **10% of revenue** since 2015 (well-controlled)
-- Total costs remain highly unpredictable due to extreme swings in Cost of Revenue and one-time items
-- Expense growth has outpaced revenue growth in **nearly every period analyzed**
+## Cost Efficiency Decline
 
-**External Shocks & Structural Events:**
+<img src="images/Cost Per Revenue.png" alt="ED1" width="600" height="400"/>
 
-- **2008 Financial Crisis & Fuel Spike:** Record oil prices exceeding $100/barrel pushed fuel costs to an unprecedented share of revenue. Reactive cost measures created significant one-time charges and restructuring expenses.
+Cost per revenue reached its best level in **2009 at $0.70**. Efficiency has since deteriorated **26% to $0.96 in 2025**.
 
-- **2017 Virgin America Integration:** Merger-related costs contributed to a **44–50%** rise in operating expenses.
+**Insight:** Early improvements reflected successful cost controls. That progress has since reversed. The company is experiencing diseconomies of scale—growth brings higher unit costs rather than lower costs per unit.
 
-- **2020 COVID-19 Pandemic:** Passenger counts fell to 5% of prior-year levels, forcing a **50% capacity reduction** and over **4,000 workforce reductions**. Fuel prices fell, but non-fuel unit costs surged **26%** due to capacity cuts, and the company drew heavily on debt to preserve liquidity.
+## No Operating Leverage
 
-**Root Cause:** External shocks + structural sensitivity
+<img src="images/EXPvsREV.png" alt="ED1" width="600" height="450"/>
 
-**Implication:** Cost unpredictability complicates investment decisions, pricing strategy, and budgeting. External shocks force reactive cost-cutting, which generates further volatility. Recurring, large-scale cost disruptions constrain the company's ability to plan for sustainable profitability.
+Expense growth outpaced revenue growth in **6 of 7 periods analyzed**. YoY expense swings: **+99% (2004)** , **-43% (2005)** , **+46% (2017)** , **-42% (2020)** .
 
+**Insight:** Cost volatility is structural, not random. External shocks (2008, 2017, 2020) repeatedly disrupt the cost base. Financial planning lacks a reliable foundation because management cannot forecast total costs with confidence.
 
+<img src="images/Efficiency Gap.png" alt="ED1" width="600" height="450"/>
 
-### 2. Cost Efficiency Decline
+Operating margin: **3.9%** (2025). Net margin: **0.7%** (2025). Gap of **3.2 percentage points**. Gap has persisted across the period, averaging approximately **3 percentage points**.
 
-Cost per revenue improved significantly from the early turbulent years, reaching its best level in **2009 at $0.70 per dollar of revenue**. However, since then, efficiency has steadily declined, with cost per revenue worsening **26% to $0.96 in 2025**.
+**Insight:** Non-operating costs—interest, taxes, and one-time charges—consistently erode profitability beyond core operations. Even when operating performance improves, profit leaks through non-operating channels. The company cannot retain the value it creates.
 
-**What the Data Shows:**
-- 2009: **$0.70** cost per revenue (Best performance)
-- 2015: **$0.76** cost per revenue
-- 2025: **$0.96** cost per revenue (**+26% deterioration**)
+## Margin Compression
 
-**Root Cause:** Shocks disrupt operational discipline; costs rise with scale
+<img src="images/Net Margins.png" alt="ED1" width="600" height="450"/>
 
-**Implication:** Each external shock resets the cost base higher, and the company has not recovered operational discipline between shocks. Growth amplifies the problem rather than solving it.
+Net margin peaked at **15.15% (2015)** . Collapsed to **-37.13% (2020)** . Currently at **0.7% (2025)** . A **5% revenue decline** would eliminate all profitability.
 
+**Insight:** Margin compression is structural, not cyclical. The 2020 shock exposed fragility, and the company has not recovered sufficient margin cushion since. At 0.7%, the company is operating with no buffer.
 
+## Escalating Debt Burden
 
-### 3. No Operating Leverage
+<img src="images/Total Debt.png" alt="ED1" width="600" height="450"/>
 
-**Expense Growth vs. Revenue Growth:** In multiple periods, cost growth exceeds revenue growth, indicating sustained margin pressure.
+Debt more than doubled since 2019: **$3.2B → $6.9B** (+115%). Interest expense nearly quadrupled: **$63M → $235M** (+273%). Interest consumes **42% of operating income**. Interest coverage: **1.6x** (2019: 17.1x). Free cash flow negative in **4 of the last 6 years**, including **-$339M (2025)** .
 
-**Efficiency Gap (Operating Margin vs. Net Margin):** A persistent gap between operating and net margins indicates that non-operating costs continue to erode profitability beyond core operations.
-
-**What the Data Shows:**
-- 2021–2025: Revenue grew **130%**, yet operating margin fell from **10.9% to 3.9%** (−7pp)
-- 2025: Operating margin stood at **3.9%** while net margin was **0.7%** (gap of 3.2pp)
-- Gap has persisted across the period, averaging approximately **3 percentage points**
-
-**Root Cause:** Revenue growth absorbed by rising costs
-
-**Implication:** The combination of rising costs and persistent non-operating leakage means revenue growth delivers no margin benefit. The company is scaling revenue without scaling profit.
-
-
-
-### 4. Margin Compression
-
-Net margin has collapsed from **15.15% (2015) to 0.7% (2025)**.
-
-**What the Data Shows:**
-- 2015: **15.15%** net margin (Peak)
-- 2020: **−37.13%** net margin (Pandemic shock)
-- 2025: **0.7%** net margin
-- **A 5% revenue decline** would wipe out all profitability
-
-**Root Cause:** Cumulative outcome of inefficiency and lack of leverage
-
-**Implication:** The company is structurally fragile. Margin compression is not cyclical; it is the logical result of a cost base that is volatile, inefficient, and unresponsive to scale. The 2020 shock exposed this fragility, and the company has not recovered a sufficient margin cushion since.
-
-
-
-### 5. Escalating Debt Burden
-
-**What the Data Shows:**
-
-| Metric | 2019 | 2025 | Change |
-|--|||--|
-| Total Debt | $3.2B | $6.9B | **+115%** |
-| Interest Expense | $63M | $235M | **+273%** |
-| Free Cash Flow | $1,026M | −$339M | **−133%** |
-| Interest Coverage | 17.1x | 1.6x | **−91%** |
-| Interest / Operating Income | 6% | 42% | **+36pp** |
-
-**Root Cause:** Shocks force borrowing; debt amplifies fragility
-
-**Implication:** Debt is not a separate problem; it is a compounding factor. Each external shock forces borrowing, and borrowing in turn increases fixed obligations, making the company more vulnerable to the next shock. Negative free cash flow means the company cannot fund operations or growth internally, creating a self-reinforcing cycle: borrow to survive, pay more interest, borrow more to cover interest, and further erode profitability.
+**Insight:** Debt is a compounding factor, not a separate problem. Each shock forces borrowing, and borrowing increases fixed obligations, making the company more vulnerable to the next shock. Negative free cash flow forces further borrowing—a self-reinforcing cycle. At 1.6x interest coverage, a modest earnings decline would push coverage below 1.0x.
 
